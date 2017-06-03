@@ -1,0 +1,215 @@
+body{
+	background: #f2f2f2 !important;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	top: 0;
+}
+#header nav{
+	margin-bottom: 0;
+	background: #34465d;
+	border: 0;
+	border-radius: 0;
+	opacity: .9;
+}
+.nav li a,.navbar-brand{
+	color: #eee !important;
+}
+#main{
+	margin-top: 50px;
+	overflow: hidden;
+	height: auto;
+}
+input,select,button,textarea{
+	border-radius: 1px !important;
+}
+.sidebar,.content{
+	height: 600px;;
+	overflow: auto;
+}
+.sidebar{
+	position: fixed !important;
+	height: 100% !important;
+	top: 0px;
+	padding-top: 50px;
+	overflow: hidden;
+	color: #eee;
+	opacity: .96;
+	background: #34495e; 
+}
+.sidebar .list-group{
+}
+.sidebar .list-group a{
+	background: transparent;
+	border: 0;
+	color: #eee;
+	border-radius: 0;
+}
+.sidebar .list-group a:hover{
+	background: #444;
+	color: #fff;
+	border-left: 5px solid #3498db;
+}
+.login-widget .input-group{
+	margin-bottom: 5px;
+}
+.login-widget .input-group-addon{
+	background: transparent !important;
+	color: #eee;
+	border-color: #aaa;
+}
+.login-widget input.form-control{
+	border-radius: 1px;
+	background: transparent;
+	border: 1px solid #aaa;
+	color: #aaa;
+}
+.login-widget{
+	margin: 25px 0;
+}
+.login-widget .btn{
+	width: 100%;
+	background: #2980b9;
+}
+hr{
+	margin: 0 0 10px !important;
+}
+.sidebar hr{border-color: #777;}
+.konten hr{
+	border-color: #ddd;
+}
+.btn{
+	border-radius: 1px !important;
+}
+.content{
+	padding-top: 50px;
+	overflow: hidden;
+	min-height: 400px;
+	margin-bottom: 30px;
+	height: auto;
+	position: relative;
+}
+.konten{
+	position: relative;
+	background: #fff;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border: 1px solid #ddd;
+	border-top: 3px solid #bbb;
+	margin-bottom: 30px;
+}
+#isi{
+	border: 1px solid #ddd;
+	background: #fff;
+}
+.searchbox{
+}
+.searchbox .form-control,.searchbox .btn{
+	border-radius: 1px;
+}
+.searchbox .btn{
+	width: 100%;
+}
+div.title{
+	background: #f3f3f3;
+	margin: 10px 0 20px;
+	padding: 2px 10px;
+	border-left: 5px solid #3498db;
+}
+.jurusan-input{
+	height: 330px;
+	overflow-y: scroll;
+
+}
+.save-button{
+	margin: 20px 0;
+	text-align: right;
+}
+#remove-jrs{
+	color: tomato;
+}
+.detail-group{
+	overflow: hidden;
+	margin-bottom: 10px !important;
+}
+.detail-group div:first-child{
+	text-align: right;
+}
+table.no-brd th,table.no-brd td{
+	border: none !important;
+}
+table.no-brd tr:hover{
+	border-left: 3px solid #3498db;
+	background: #555;
+	color: #eee;
+}
+#login-form,#register-form{
+	border: 1px solid #dde;
+	padding-top: 0 !important;
+	padding-bottom: 20px;
+	background: #fdfdfd;
+	margin-top: 150px;
+}
+#login-form .login-caption,#register-form .register-caption{
+	padding: 3px 8px;
+	background: #bbb;
+	color: #fff;
+	margin-top: 0;
+	margin-left: -20px;
+	margin-right: -15px;
+	margin-bottom: 45px;
+}
+#login-form input{
+	border-color: #ddd;
+	outline: none !important;
+	box-shadow: none !important;
+}
+#login-form .input-group{
+	margin-bottom: 15px;
+}
+#login-form .btn,#register-form .btn{
+	width: 100% !important;
+}
+span.input-group-addon{
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+}
+.input-group .form-control{
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+.show-sidebar{
+	z-index: 3 !important;
+	display: block !important;
+	width: 230px !important;
+}
+#not-found{
+	margin-auto;
+	text-align: center;
+	margin-top: 230px;
+}
+#not-found h1{
+	font-size: 3em !important;
+}
+li.paginate_button{
+	padding: 0 !important;
+	border: 0 !important;
+}
+.peta{
+	border: 1px solid #ddd;
+	height: 340px;
+	margin-bottom: 30px;
+}
+.btn-primary{
+	background-color: #3D8EB9 !important;
+}
+
+/* media settings */
+@media screen and (max-width: 765px){
+	.sidebar{
+		display: none;
+	}
+}
